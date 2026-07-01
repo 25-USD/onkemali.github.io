@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #1e293b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin-left: 1.5rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: #38bdf8;
+}
+
+
+section {
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: white;
+    max-width: 100%;
+}
+
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    flex: 1 1 calc(50% - 1.5rem); /* Makes it 2 columns, shrinking to 1 on small screens */
+    min-width: 250px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e293b;
+    color: #94a3b8;
+    margin-top: 4rem;
+}
+
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem 0;
+}
+
+profile-pic-small {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #38bdf8;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
